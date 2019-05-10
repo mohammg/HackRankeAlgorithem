@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackRankInterview.Interview
 {
-    class ArrayManipulation : ICommand
+    class ArrayManipulation : ICommandTest
     {
         static long arrayManipulation(int n, int[][] queries)
         {

@@ -58,13 +58,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Exms.cs" />
     <Compile Include="Interview\Array2d.cs" />
     <Compile Include="Interview\ArrayManipulation.cs" />
     <Compile Include="Interview\CountingValleys.cs" />
     <Compile Include="Interview\JumpingonClouds.cs" />
     <Compile Include="Interview\LeftRotation.cs" />
     <Compile Include="Interview\MinimumSwaps.cs" />
+    <Compile Include="Interview\NewYearChaos.cs" />
     <Compile Include="Interview\RepeatedString.cs" />
     <Compile Include="Interview\SockMerchant.cs" />
     <Compile Include="Program.cs" />

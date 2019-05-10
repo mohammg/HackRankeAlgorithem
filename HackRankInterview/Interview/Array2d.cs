@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackRankInterview.Interview
 {
-    public class Array2d : ICommand
+    public class Array2d : ICommandTest
     {
         static int hourglassSum(int[][] arr)
         {

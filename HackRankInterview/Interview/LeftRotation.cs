@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackRankInterview.Interview
 {
-    class LeftRotation : ICommand
+    class LeftRotation : ICommandTest
     {/*
         A left rotation operation on an array shifts each of the array's 
         elements 1 unit to the left. For example, if 2 left rotations are 

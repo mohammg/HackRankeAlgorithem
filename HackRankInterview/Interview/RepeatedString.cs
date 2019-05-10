@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackRankInterview.Interview
 {
-    public class RepeatedString : ICommand
+    public class RepeatedString : ICommandTest
     {/*
         Lilah has a string,(S) , of lowercase English letters that she repeated infinitely many times.
 

@@ -13,7 +13,7 @@ namespace HackRankInterview
             //Using Example class
             Exms day = new Exms();
             // chang enum to use another example
-            day.DoIt(ExmNum.Exm6, true);
+            day.DoIt(ExmNum.NewYearChaos, true);
 
            
             Console.WriteLine("Press Any Key To Exist........");

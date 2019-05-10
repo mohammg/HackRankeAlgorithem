@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HackRankInterview.Interview
 {
-    class MinimumSwaps : ICommand
+    class MinimumSwaps : ICommandTest
     {
         private static int minimumSwaps(int[] arr)
         {

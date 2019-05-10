@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackRankInterview.Interview
 {
-    public class JumpingonClouds : ICommand
+    public class JumpingonClouds : ICommandTest
     {
 
          int jumpingOnClouds(int[] c)
