@@ -22,7 +22,38 @@ you decide you must know the minimum number of bribes that took place to get the
              */
          void minimumBribes(int[] arrList)
         {
-            
+            int arrSize = arrList.Length;
+            int bribe = 0;
+            for (int i = arrSize-1; i > -1; i--)
+            {
+                int element = i + 1;
+                if (arrList[i]!=element)
+                {
+                    if (arrList[i-1]==element)
+                    {
+                        arrList[i - 1] = arrList[i];
+                        arrList[i] = element;
+                        bribe++;
+                    }
+                    else if (arrList[i-2]==element)
+                    {
+                        arrList[i - 2] = arrList[i - 1];
+                        arrList[i - 1] = arrList[i];
+                        arrList[i] = element;
+                        bribe +=2;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Too chaotic");
+                        bribe = 0;
+                        break;
+                    }
+                }
+            }
+            if (bribe>0)
+            {
+                Console.WriteLine(bribe);
+            }
         }
 
         public void Excute()
