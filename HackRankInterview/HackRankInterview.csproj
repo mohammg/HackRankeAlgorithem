@@ -66,6 +66,7 @@
     <Compile Include="Interview\LeftRotation.cs" />
     <Compile Include="Interview\MinimumSwaps.cs" />
     <Compile Include="Interview\NewYearChaos.cs" />
+    <Compile Include="Interview\RansomNote.cs" />
     <Compile Include="Interview\RepeatedString.cs" />
     <Compile Include="Interview\SockMerchant.cs" />
     <Compile Include="Program.cs" />
