@@ -18,7 +18,10 @@ namespace HackRankInterview
         MinimumSwaps,
         ArrayManipulation,
         NewYearChaos,
-        RansomNote
+        RansomNote,
+            SubarrayDivision,
+        DivisibleSumPairs,
+
 
     }
     public class Exms
@@ -38,7 +41,7 @@ namespace HackRankInterview
             lists.Add(ExmNum.ArrayManipulation, new ArrayManipulation());
             lists.Add(ExmNum.NewYearChaos, new NewYearChaos());
             lists.Add(ExmNum.RansomNote, new RansomNote());
-
+            lists.Add(ExmNum.SubarrayDivision, new SubarrayDivision());
 
         }
         public void DoIt(ExmNum d, bool withExample = true)
